@@ -8,10 +8,14 @@ const theme = {
     },
   },
   colors: {
-    darkBase: '#191919',
-    darkElevated: '#2C2C2E',
-    light: '#FFFFFF',
-    indigo: '#FEC260',
+    blue001: '#081A51',
+    blue003: '#51CBFF',
+    blue002: '#1B2B65',
+    light001: '#FFFFFF',
+    light002: '#F8F9FF',
+    light003: '#DADADA',
+    light004: '#F5F7FB',
+    text: '#1C1F37',
   },
 } as const;
 

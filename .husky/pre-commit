@@ -3,4 +3,4 @@
 
 yarn lint-staged
 yarn build
-./node_modules/.bin/cypress run
+# ./node_modules/.bin/cypress run

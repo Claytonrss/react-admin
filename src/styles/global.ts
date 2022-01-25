@@ -15,8 +15,8 @@ body,html{height:100%;}
 
 body {
 	line-height: 1;
-  background: ${props => props.theme.colors.darkBase};
-  color: ${props => props.theme.colors.light};
+  background: ${props => props.theme.colors.light002};
+  color: ${props => props.theme.colors.text};
   font-family:'Poppins', sans-serif;
   display:flex;
   justify-content:center;
@@ -58,5 +58,11 @@ table {
 a {
   color: inherit;
   text-decoration: inherit; /* no underline */
+}
+
+button{
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
 `;
