@@ -1,7 +1,7 @@
 const theme = {
   fonts: {
     family: {
-      body: 'Poppins, sans-serif',
+      body: `Montserrat, sans-serif`,
     },
     weight: {
       semiBold: '600',

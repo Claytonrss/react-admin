@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Jan",
+    "totalReach": 100000,
+    "paidReach": 75000,
+    "organicReach": 25000
+  },
+  {
+    "name": "Fev",
+    "totalReach": 134000,
+    "paidReach": 85000,
+    "organicReach": 49000
+  },
+  {
+    "name": "Mar",
+    "totalReach": 99000,
+    "paidReach": 53000,
+    "organicReach": 46000
+  },
+  {
+    "name": "Apr",
+    "totalReach": 153000,
+    "paidReach": 102000,
+    "organicReach": 51000
+  },
+  {
+    "name": "May",
+    "totalReach": 132000,
+    "paidReach": 62000,
+    "organicReach": 70000
+  },
+  {
+    "name": "Jun",
+    "totalReach": 152000,
+    "paidReach": 90000,
+    "organicReach": 62000
+  },
+  {
+    "name": "Jul",
+    "totalReach": 214000,
+    "paidReach": 159000,
+    "organicReach": 55000
+  },
+  {
+    "name": "Aug",
+    "totalReach": 177000,
+    "paidReach": 129000,
+    "organicReach": 48000
+  },
+  {
+    "name": "Sep",
+    "totalReach": 145000,
+    "paidReach": 95000,
+    "organicReach": 50000
+  },
+  {
+    "name": "Oct",
+    "totalReach": 170000,
+    "paidReach": 111000,
+    "organicReach": 59000
+  },
+  {
+    "name": "Nov",
+    "totalReach": 206000,
+    "paidReach": 151000,
+    "organicReach": 55000
+  },
+  {
+    "name": "Dec",
+    "totalReach": 231000,
+    "paidReach": 148000,
+    "organicReach": 83000
+  }
+]

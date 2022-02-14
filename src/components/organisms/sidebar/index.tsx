@@ -3,7 +3,7 @@ import Logo from '../../atoms/logo';
 import MenuSidebar from '../../molecules/sidebar/menu-sidebar';
 import { ReactComponent as ArrowLeftIcon } from '../../../assets/images/icons/arrow-left.svg';
 import dataSidebar from './data';
-import { ContainerSidebar } from './styled';
+import { ContainerSidebar } from './styles';
 
 const Sidebar: React.FC = () => {
   const [openedSidebar, setOpenedSidebar] = useState(true);

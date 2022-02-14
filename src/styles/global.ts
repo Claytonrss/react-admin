@@ -10,17 +10,14 @@ export default createGlobalStyle`
   box-sizing: border-box;
 }
 
-body,html{height:100%;}
+body,html{height:100%;width:100%;}
 
 
 body {
 	line-height: 1;
   background: ${props => props.theme.colors.light002};
   color: ${props => props.theme.colors.text};
-  font-family:'Poppins', sans-serif;
-  display:flex;
-  justify-content:center;
-  align-items:center
+  font-family: ${props => props.theme.fonts.family.body};
 }
 
 ol, ul, menu {
@@ -64,5 +61,37 @@ button{
   background-color: transparent;
   border: none;
   outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: ${props => props.theme.colors.text};
+  border: 0px none ${props => props.theme.colors.light002};
+}
+::-webkit-scrollbar-thumb:hover {
+  background: ${props => props.theme.colors.blue001};
+}
+::-webkit-scrollbar-thumb:active {
+  background: ${props => props.theme.colors.blue001};
+}
+::-webkit-scrollbar-track {
+  background: ${props => props.theme.colors.light001};
+  border: 0px none ${props => props.theme.colors.light002};
+}
+::-webkit-scrollbar-track:hover {
+  background: ${props => props.theme.colors.light001};
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
 }
 `;

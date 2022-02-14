@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const ContainerSidebar = styled.div`
   min-height: 100vh;
+  grid-area: sidebar;
   background-color: ${({ theme }) => theme.colors.blue001};
   color: ${({ theme }) => theme.colors.light001};
   padding-bottom: 39px;
@@ -9,6 +10,7 @@ export const ContainerSidebar = styled.div`
   min-width: fit-content;
   padding: 24px 16px;
   transition: all 0.3s;
+  position: relative;
 
   &.sidebar-closed {
     background-color: ${({ theme }) => theme.colors.text};
