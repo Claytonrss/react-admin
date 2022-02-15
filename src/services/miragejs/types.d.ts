@@ -4,3 +4,7 @@ export interface ReachDataProps {
   paidReach: number;
   organicReach: number;
 }
+export interface DemographicDataProps {
+  name: string;
+  value: number;
+}

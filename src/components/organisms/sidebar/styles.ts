@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const ContainerSidebar = styled.div`
   min-height: 100vh;
+  height: 100%;
   grid-area: sidebar;
   background-color: ${({ theme }) => theme.colors.blue001};
   color: ${({ theme }) => theme.colors.light001};
